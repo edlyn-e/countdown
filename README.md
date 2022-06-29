@@ -19,7 +19,9 @@
 <p>In the future versions, I want to implement flexibility by adding features for the user to set and reset their own date as well as customise the message once the countdown is finished. Further, I also hope to resolve the issue of time displaying as a single digit when the value is below 10.</p>
 
 ### How to use
+
 <p>You can clone repo to your local machine if you like, and set your own date and time to countdown using a program like Visual Studio Code. You can then set your own time and date and 'Go Live' to see it's time tick. It's only the first version so it could be good to fiddle around with it.</p>
 
 #### Credits
+
 📄 <a href="https://www.youtube.com/watch?v=3PHXvlpOkf4&t=17933s&ab_channel=freeCodeCamp.org">Build 15 JavaScript Projects - Vanilla JavaScript Course</a> by John Smilga
