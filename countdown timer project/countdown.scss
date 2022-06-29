@@ -1,0 +1,46 @@
+// using variables
+$border: 2px solid black;
+
+// using placeholder classes
+%flex {
+    display: flex;
+    justify-content: center;
+}
+
+* {
+    font-family: monospace;
+    text-align: center;
+    margin: 10px;
+}
+
+// using BEM
+.section-center {
+    @extend %flex;
+
+    height: 85vh;
+    flex-direction: column;
+
+    #endDate {
+        font-size: 17px;
+    }
+
+    .deadline {
+        @extend %flex;
+
+        text-align: center;
+        flex-wrap: wrap;
+
+        &__item {
+            width: 100px;
+            margin: 10px;
+
+            h4 {
+                font-size: 25px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+        }
+    }
+}

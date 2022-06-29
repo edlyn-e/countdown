@@ -1,0 +1,31 @@
+* {
+  font-family: monospace;
+  text-align: center;
+  margin: 10px;
+}
+
+.section-center {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section-center #endDate {
+  font-size: 17px;
+}
+.section-center .deadline {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.section-center .deadline__item {
+  width: 100px;
+  margin: 10px;
+}
+.section-center .deadline__item h4 {
+  font-size: 25px;
+}
+.section-center .deadline__item p {
+  font-size: 20px;
+}
