@@ -1,4 +1,4 @@
-## Basic Countdown Timer
+## Basic Countdown Timer (wip)
 
 <p>Welcome to a basic countdown timer built in Javascript. This project followed a <a href="https://www.youtube.com/watch?v=3PHXvlpOkf4&t=17933s&ab_channel=freeCodeCamp.org">tutorial</a> by John Smilga from <a href="">freeCodeCamp.org</a>. It covers introductory Javascript concepts and is a perfect project for beginners, such as myself, to get comfortable with Javascript fundamentals.</p>
 
@@ -20,7 +20,7 @@
 
 ### How to use
 
-<p>You can clone repo to your local machine if you like, and set your own date and time to countdown using a program like Visual Studio Code. You can then set your own time and date and 'Go Live' to see it's time tick. It's only the first version so it could be good to fiddle around with it.</p>
+<p>You can clone repo to your local machine if you like, and set your own date and time to countdown using a program like Visual Studio Code. You can then set your own time and date and 'Go Live' to see it's time tick. It's basic and minimal, and definitely something I will continue to fiddle as my understanding grows and progresses.</p>
 
 #### Credits
 
