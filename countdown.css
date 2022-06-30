@@ -1,9 +1,15 @@
-.section-center .deadline, .section-center {
+.section-center .timer-container .deadline, .section-center {
   display: flex;
   justify-content: center;
 }
 
+.section-center .timer-container .deadline, .section-center .timer-container {
+  max-width: auto;
+  margin: auto;
+}
+
 * {
+  background-color: #088c74;
   font-family: monospace;
   text-align: center;
   margin: 10px;
@@ -13,18 +19,35 @@
 .section-center {
   height: 85vh;
   flex-direction: column;
+  align-content: center;
 }
-.section-center .deadline {
+.section-center .timer-container {
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px #8f321d;
+  background-color: #f2b441;
+  padding: 50px;
+}
+.section-center .timer-container .endDate {
+  background: #f2b441;
+}
+.section-center .timer-container .deadline {
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: #fff;
   text-align: center;
   flex-wrap: wrap;
 }
-.section-center .deadline__item {
+.section-center .timer-container .deadline__item {
   width: 100px;
   margin: 10px;
+  background-color: #fff;
 }
-.section-center .deadline__item h4 {
+.section-center .timer-container .deadline__item h4 {
   font-size: 25px;
+  background-color: #fff;
 }
-.section-center .deadline__item p {
+.section-center .timer-container .deadline__item p {
   font-size: 20px;
+  background-color: #fff;
 }

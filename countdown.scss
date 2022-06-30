@@ -1,5 +1,10 @@
 // using variables
-$border: 2px solid black;
+$border: 1px solid black;
+
+$bg: #088c74;
+$bg-outer: #f2b441;
+$bg-item: #fff;
+$shadow: #8f321d;
 
 // using placeholder classes
 %flex {
@@ -7,7 +12,14 @@ $border: 2px solid black;
     justify-content: center;
 }
 
+%auto-margin-width {
+    max-width: auto;
+    margin: auto;
+}
+
 * {
+    background-color: $bg;
+
     font-family: monospace;
     text-align: center;
     margin: 10px;
@@ -20,23 +32,47 @@ $border: 2px solid black;
 
     height: 85vh;
     flex-direction: column;
+    align-content: center;
 
-    .deadline {
-        @extend %flex;
+    .timer-container {
+        @extend %auto-margin-width;
 
-        text-align: center;
-        flex-wrap: wrap;
+        border: $border;
+        border-radius: 10px;
+        box-shadow: 5px 5px $shadow;
 
-        &__item {
-            width: 100px;
-            margin: 10px;
+        background-color: $bg-outer;
+        padding: 50px;
 
-            h4 {
-                font-size: 25px;
-            }
+        .endDate {
+            background: $bg-outer;
+        }
 
-            p {
-                font-size: 20px;
+        .deadline {
+            border: $border;
+            @extend %auto-margin-width;
+            @extend %flex;
+
+            border-radius: 20px;
+            background-color: $bg-item;
+
+            text-align: center;
+            flex-wrap: wrap;
+
+            &__item {
+                width: 100px;
+                margin: 10px;
+                background-color: $bg-item;
+
+                h4 {
+                    font-size: 25px;
+                    background-color: $bg-item;
+                }
+
+                p {
+                    font-size: 20px;
+                    background-color: $bg-item;
+                }
             }
         }
     }
