@@ -1,4 +1,4 @@
-## Basic Countdown Timer
+## Basic Countdown Timer (wip)
 
 <p>Welcome to a basic countdown timer built in Javascript. This project followed a <a href="https://www.youtube.com/watch?v=3PHXvlpOkf4&t=17933s&ab_channel=freeCodeCamp.org">tutorial</a> by John Smilga from <a href="">freeCodeCamp.org</a>. It covers introductory Javascript concepts and is a perfect project for beginners, such as myself, to get comfortable with Javascript fundamentals.</p>
 
