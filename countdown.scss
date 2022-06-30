@@ -11,6 +11,7 @@ $border: 2px solid black;
     font-family: monospace;
     text-align: center;
     margin: 10px;
+    font-size: large;
 }
 
 // using BEM
@@ -19,10 +20,6 @@ $border: 2px solid black;
 
     height: 85vh;
     flex-direction: column;
-
-    #endDate {
-        font-size: 17px;
-    }
 
     .deadline {
         @extend %flex;
